@@ -11,7 +11,7 @@ text-align: center; padding: 50px;
 
 }
 .card {
-background: white; border-radius: 10px;
+background: white; border-radius: 50px;
 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 max-width: 500px; margin: 0 auto; padding: 30px;
 
@@ -23,9 +23,9 @@ p { font-size: 18px; line-height: 1.6; }
 <body>
 <div class="card">
 <h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน </h1>
-<p>สวัสดีครับ! ผมช่อื <strong>ณัชนน (Natchanon)</strong></p>
-<p>ขณะนี้ก;าลังศึกษา/สนใจด้าน Computer Science & Engineering</p>
-<p>นี่คือเว็บไซต์แรกของผมที่โฮสต์บน GitHub Pages!</p>
+<p>สวัสดีค่ะ! ดิฉันชื่อ <strong>จุฑารัตน์ ธรรมทีโป (Chutharat Thammateepo)</strong></p>
+<p>ขณะนี้กำลังศึกษา/สนใจด้าน  Science & Veterinarian</p>
+<p>นี่คือเว็บไซต์แรกของดิฉันที่โฮสต์บน GitHub Pages!</p>
 </div>
 </body>
 </html>

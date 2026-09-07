@@ -1,32 +1,260 @@
-<!-- นี่คือโครงสร้างหน้าเว็บทังหมด ้ -->
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<title>หน้าแนะน;าตัวของฉัน</title>
-<style>
-body {
-background-color: #486a96; color: #333;
-text-align: center; padding: 50px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-}
-.card {
-background: white; border-radius: 50px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-max-width: 500px; margin: 0 auto; padding: 30px;
+    <title>My Portfolio</title>
 
-}
-h1 { color: #2c3e50; }
-p { font-size: 18px; line-height: 1.6; }
-</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="card">
-<h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน </h1>
-<p>สวัสดีค่ะ! ดิฉันชื่อ <strong>จุฑารัตน์ ธรรมทีโป (Chutharat Thammateepo)</strong></p>
-<p>ขณะนี้กำลังศึกษา/สนใจด้าน  Science & Veterinarian</p>
-<p>นี่คือเว็บไซต์แรกของดิฉันที่โฮสต์บน GitHub Pages!</p>
-<a href="portfolio.html" class="btn"> ดูแฟ้มสะสมผลงานของฉัน</a>
-</div>
+
+    <!-- เมนูด้านบน -->
+    <header class="navbar">
+
+        <div class="logo">
+            Portfolio
+        </div>
+
+        <nav>
+            <a href="#home">หน้าหลัก</a>
+            <a href="#preface">คำนำ</a>
+            <a href="#profile">ประวัติส่วนตัว</a>
+            <a href="#activities">ผลงานและกิจกรรม</a>
+            <a href="#contact">ช่องทางการติดต่อ</a>
+        </nav>
+
+    </header>
+
+
+    <!-- หน้าแรก -->
+    <section id="home" class="home-section">
+
+        <div class="home-content">
+
+            <h1>
+                Welcome To My Portfolio
+            </h1>
+
+            <img
+                src="images/profile.jpg"
+                alt="รูปโปรไฟล์"
+                class="main-photo"
+            >
+
+            <div class="home-info">
+
+                <h2>
+                    น.ส.จุฑารัตน์ ธรรมทีโป
+                </h2>
+
+                <p>
+                    ชื่อเล่น: ของขวัญ
+                </p>
+
+                <p>
+                    ชั้น: ม.6/3
+                </p>
+
+                <p>
+                    เลขที่: 36
+                </p>
+
+                <p>
+                    โรงเรียน: บ้านบึง "อุตสาหกรรมนุเคราะห์"
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- คำนำ -->
+    <section id="preface" class="preface-section">
+
+        <h2 class="section-title">
+            คำนำ
+        </h2>
+
+        <div class="content-box">
+
+            <p>
+                แฟ้มสะสมผลงาน (Portfolio) เล่มนี้
+                จัดทำขึ้นเพื่อแสดงผลงานวิชาการ
+                และกิจกรรมต่างๆที่เคยทำมา
+                เพื่อให้แสดงถึงความสามารถ
+                และความสนใจ
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ประวัติส่วนตัว -->
+    <section id="profile" class="profile-section">
+
+        <h2 class="section-title">
+            ประวัติส่วนตัว
+        </h2>
+
+        <div class="content-box">
+
+            <h3>
+                ประวัติส่วนตัว
+            </h3>
+
+            <div class="profile-details">
+
+                <p>
+                    <strong>ชื่อ-นามสกุล:</strong>
+                    น.ส.จุฑารัตน์ ธรรมทีโป
+                </p>
+
+                <p>
+                    <strong>ชื่อเล่น:</strong>
+                    ของขวัญ
+                </p>
+
+                <p>
+                    <strong>วันเกิด:</strong>
+                    26/08/51
+                </p>
+
+                <p>
+                    <strong>อายุ:</strong>
+                    18 ปี
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ผลงานและกิจกรรม -->
+    <section id="activities" class="activities-section">
+
+        <h2 class="section-title">
+            ผลงานและกิจกรรม
+        </h2>
+
+
+        <div class="activities-grid">
+
+            <!-- กิจกรรมที่ 1 -->
+            <div class="activity-card">
+
+                <img
+                    src="images/activity1.jpg"
+                    alt="ฝึกประสบการณ์ที่คลินิกรักษาสัตว์"
+                >
+
+                <h3>
+                    ฝึกประสบการณ์ที่คลินิกรักษาสัตว์
+                </h3>
+
+            </div>
+
+
+            <!-- กิจกรรมที่ 2 -->
+            <div class="activity-card">
+
+                <img
+                    src="images/activity2.jpg"
+                    alt="กิจกรรม Be Internet Awesome"
+                >
+
+                <h3>
+                    ทำกิจกรรม Be Internet Awesome
+                </h3>
+
+            </div>
+
+
+            <!-- กิจกรรมที่ 3 -->
+            <div class="activity-card">
+
+                <img
+                    src="images/activity3.jpg"
+                    alt="กิจกรรมทริปอาสาปลูกป่า"
+                >
+
+                <h3>
+                    เข้าร่วมโครงการทริปอาสาปลูกป่าฮีลใจไปกับพี่
+                    กับมูลนิธิวิถีธรรมชลบุรีร่วมกับกลุ่มจิตอาสา
+                    DRAGON EYE GROUP
+                </h3>
+
+            </div>
+
+
+            <!-- กิจกรรมที่ 4 -->
+            <div class="activity-card">
+
+                <img
+                    src="images/activity4.jpg"
+                    alt="งานวันวิทยาศาสตร์"
+                >
+
+                <h3>
+                    เป็นสตาฟในงานวันวิทยาศาสตร์ของโรงเรียน
+                </h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ช่องทางการติดต่อ -->
+    <section id="contact" class="contact-section">
+
+        <h2 class="section-title">
+            ช่องทางการติดต่อ
+        </h2>
+
+        <div class="contact-box">
+
+            <div>
+                <h3>Gmail</h3>
+                <p>
+                    s34530@banbung.ac.th
+                </p>
+            </div>
+
+            <div>
+                <h3>Tel</h3>
+                <p>
+                    0616050355
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ส่วนท้าย -->
+    <footer>
+
+        <p>
+            © 2026 My Portfolio
+        </p>
+
+    </footer>
+
+
 </body>
 </html>

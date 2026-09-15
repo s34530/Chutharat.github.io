@@ -481,3 +481,35 @@ footer {
     }
 
 }
+/* =========================
+   หน้าภายใน Portfolio
+   ========================= */
+
+.page-content {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.page-content h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.page-content h2 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.page-content p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.profile {
+    margin-top: 20px;
+}

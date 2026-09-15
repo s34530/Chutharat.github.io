@@ -274,285 +274,33 @@ section {
 
 
 /* =========================
-   ผลงานและกิจกรรม
-========================= */
-
-.activities-section {
-    background: #006064;
-}
-
-
-.activities-grid {
-    width: min(1100px, 95%);
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 30px;
-}
-
-
-.activity-card {
-    background: white;
-
-    border: 3px solid #000000;
-
-    border-radius: 15px;
-
-    padding: 20px;
-
-    box-shadow: 7px 7px 0 #000000;
-
-    transition: transform 0.2s;
-}
-
-
-.activity-card:hover {
-    transform: translateY(-5px);
-}
-
-
-.activity-card img {
-    width: 100%;
-
-    height: 300px;
-
-    object-fit: cover;
-
-    border: 3px solid #000000;
-
-    border-radius: 10px;
-
-    background: #eeeeee;
-
-    margin-bottom: 20px;
-}
-
-
-.activity-card h3 {
-    color: #000000;
-
-    font-size: 24px;
-
-    line-height: 1.5;
-
-    text-align: center;
-}
-
-
-/* =========================
-   ติดต่อ
-========================= */
-
-.contact-section {
-    background: #01579b;
-}
-
-
-.contact-box {
-    width: min(1000px, 90%);
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 30px;
-}
-
-
-.contact-box > div {
-    background: white;
-
-    border: 3px solid #000000;
-
-    border-radius: 15px;
-
-    box-shadow: 7px 7px 0 #000000;
-
-    padding: 35px;
-
-    text-align: center;
-}
-
-
-.contact-box h3 {
-    color: #000000;
-
-    font-size: 32px;
-
-    margin-bottom: 10px;
-}
-
-
-.contact-box p {
-    font-size: 22px;
-
-    word-break: break-word;
-}
-
-
-/* =========================
-   Footer
-========================= */
-
-footer {
-    background: #000000;
-
-    color: white;
-
-    text-align: center;
-
-    padding: 25px;
-
-    font-size: 18px;
-}
-
-
-/* =========================
-   มือถือ / หน้าจอเล็ก
-========================= */
-
-@media (max-width: 900px) {
-
-    .navbar {
-        flex-direction: column;
-
-        gap: 10px;
-
-        width: calc(100% - 30px);
-    }
-
-
-    .navbar nav {
-        justify-content: center;
-    }
-
-
-    .activities-grid {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-
-@media (max-width: 600px) {
-
-    section {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-
-    .navbar {
-        top: 10px;
-    }
-
-
-    .navbar nav a {
-        font-size: 13px;
-
-        padding: 6px 8px;
-    }
-
-
-    .main-photo {
-        width: 90vw;
-    }
-
-
-    .content-box {
-        padding: 25px;
-    }
-/* รูปภาพหน้าแรก */
-
-.profile-image {
-    display: block;
-    width: 300px;
-    height: auto;
-    margin: 30px auto;
-    border-radius: 15px;
-}
-
-    .profile-details {
-        grid-template-columns: 1fr;
-    }
-
-
-    .contact-box {
-        grid-template-columns: 1fr;
-    }
-
-
-    .activity-card img {
-        height: 220px;
-    }
-
-}
-/* =========================
-   หน้าภายใน Portfolio
+   กรอบกิจกรรม
    ========================= */
 
-.page-content {
-    max-width: 900px;
-    margin: 80px auto;
-    padding: 40px;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.page-content h1 {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 40px;
-}
-
-.page-content h2 {
-    font-size: 28px;
-    margin-top: 30px;
-}
-
-.page-content p {
-    font-size: 20px;
-    line-height: 1.8;
-}
-
-.profile {
-    margin-top: 20px;
-}
-/* กรอบรูปหน้าแรก */
-
-.profile-image {
-    display: block;
-    width: 300px;
-    height: auto;
-    margin: 30px auto;
-
-    border: 8px solid white;
-    border-radius: 15px;
-
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-/* กรอบของแต่ละกิจกรรม */
 .activity {
     width: 80%;
     max-width: 700px;
-    margin: 30px auto;
+
+    margin: 40px auto;
     padding: 25px;
 
     background-color: white;
 
-    border: 5px solid white;
+    /* กรอบรอบกล่องกิจกรรม */
+    border: 5px solid #000000;
     border-radius: 20px;
 
+    /* เงาของกรอบ */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 
     box-sizing: border-box;
 }
 
 
-/* รูปกิจกรรม */
+/* =========================
+   รูปกิจกรรม
+   ========================= */
+
 .activity-image {
     display: block;
 
@@ -562,24 +310,33 @@ footer {
 
     margin: 0 auto 20px auto;
 
+    /* กรอบรอบรูป */
     border: 5px solid #738ffe;
     border-radius: 15px;
+
+    box-sizing: border-box;
 
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 
-/* ชื่อกิจกรรม */
+/* =========================
+   ชื่อกิจกรรม
+   ========================= */
+
 .activity h3 {
     text-align: center;
 
     font-size: 24px;
 
-    margin: 10px 0;
+    margin: 15px 0 10px 0;
 }
 
 
-/* คำบรรยาย */
+/* =========================
+   คำบรรยายกิจกรรม
+   ========================= */
+
 .activity p {
     text-align: center;
 
